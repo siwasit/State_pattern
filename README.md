@@ -1,18 +1,26 @@
-## Getting Started
+# State Pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Compilation Results
 
-## Folder Structure
+The following are the results of running the state pattern example:
 
-The workspace contains two folders by default, where:
+### Latte
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```plaintext
+Order received: Latte
+Producing Latte
+SimpleCoffee, with Espresso shot, with Milk 15.0 baht
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Latte successfully done
+A Latte which worth 15.0 baht has been served to the customer.
+State has been reset to OrderedState.
+-------------------------------
+Order received: Seafood
+Producing Seafood
+SimplePizza, with Pizza Dough, with Cheese, with Pepper, with Shrimp, with Mussels, with Tomato 51.0 baht
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Seafood successfully done
+A Seafood which worth 51.0 baht has been served to the customer.
+State has been reset to OrderedState.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
